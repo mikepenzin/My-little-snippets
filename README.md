@@ -2,7 +2,7 @@
 
 http://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
 
-#1. Display Date & Time
+##1. Display Date & Time
     // Today is : Friday. 
     // Current time is : 4 PM : 50 : 22   
 
@@ -24,4 +24,9 @@ http://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
             return ((12 - hours) + " AM");
         }
     }
+```
+##2. Write a JavaScript program to print the contents of the current window.  
+
+```js
+    window.print();
 ```
