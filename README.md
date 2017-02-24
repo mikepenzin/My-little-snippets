@@ -35,7 +35,8 @@ window.print();
 ```js
 function sum(x){
     if (arguments.length == 2){
-        // in functions arguments received as array. We need to check if their is two or one argument in array. 
+        // In functions arguments received as array. 
+        // We need to check if their is two or one argument in array. 
        return arguments[0] + arguments[1];
     } else {
         return function (y) {
@@ -55,7 +56,8 @@ function isPalindrome(str) {
     // Lowercase all string
     str = str.replace(/\W/g, '').toLowerCase();
     
-    // First use split in order to convert string to array, every single character is different array instance.
+    // First use split in order to convert string to array.
+    // So, every single character is different array instance.
     // Reverse the array. Use join to convert array into string.
     console.log(str == str.split('').reverse().join(''));
 }
