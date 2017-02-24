@@ -79,7 +79,7 @@ function isInteger(x) {
 
 ```js
 function f(n) {
-    // ? stands for if statment - if n = 1 or less will return - n. if n > 1, then n * f(n-1)
+    // ? stands for if statement - if n = 1 or less will return - n. if n > 1, then n * f(n-1)
     // f(n); is recursion function
     return ((n > 1) ? n * f(n-1) : n)
 }
