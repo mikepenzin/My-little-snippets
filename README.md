@@ -72,6 +72,7 @@ function isInteger(x) {
 ```
 ##6. Function will output the value of factorial
     // f(10);   // Outputs 3628800
+    // f(5);   // Outputs 120
 
 ```js
 function f(n) {
