@@ -1,7 +1,5 @@
 # My little JS snippets
 
-http://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
-
 ##1. Display Date & Time
     // Today is : Friday. 
     // Current time is : 4 PM : 50 : 22   
@@ -45,7 +43,7 @@ function sum(x){
     }
 }
 ```
-##4. The following one line function will return true if str is a palindrome; otherwise, it returns false.
+##4. The following function will return true if str is a palindrome; otherwise, it returns false.
     // isPalindrome("level");   // Outputs true 
     // isPalindrome("levels");   // Outputs false
     // isPalindrome("A car, a man, a maraca");   // Outputs true 
@@ -60,3 +58,24 @@ function isPalindrome(str) {
     // Reverse the array. Use join to convert array into string.
     console.log(str == str.split('').reverse().join(''));
 }
+```
+##5. Function isInteger(x) that determines if x is an integer.
+    // isInteger(3);   // Outputs true 
+    // isInteger("5");   // Outputs false
+    // isInteger("car");   // Outputs false 
+
+```js
+function isInteger(x) { 
+    // ^ stands for XOR so every integer with (4^0) will give integer itself. Every string will give 0
+    return (x^0) === x; 
+} 
+```
+##6. Function will output the value of factorial
+    // f(10);   // Outputs 3628800
+
+```js
+function f(n) {
+    return ((n > 1) ? n * f(n-1) : n)
+}
+```
+
