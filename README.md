@@ -5,28 +5,28 @@
     // Current time is : 4 PM : 50 : 22   
 
 ```js
-    var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    var a = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var a = new Date();
 
-    var hour = a.getHours();
+var hour = a.getHours();
 
-    console.log("Today is : " + days[a.getDay()]);
-    console.log("Current time is : " + getH(hour) + " " + a.getMinutes() + ":" + a.getSeconds());
+console.log("Today is : " + days[a.getDay()]);
+console.log("Current time is : " + getH(hour) + " " + a.getMinutes() + ":" + a.getSeconds());
 
 
-    function getH(h){
-        var hours = h;
-        if (hours > 12){
-            return ((hours == 24) ? (0 + " AM"):((hours - 12) + " PM"));
-        } else {
-            return ((hours == 0) ? (0 + " PM"):((12 - hours) + " AM"));
-        } 
-    }
+function getH(h){
+  var hours = h;
+  if (hours > 12){
+    return ((hours == 24) ? (0 + " AM"):((hours - 12) + " PM"));
+  } else {
+    return ((hours == 0) ? (0 + " PM"):((12 - hours) + " AM"));
+  } 
+}
 ```
 ##2. Write a JavaScript program to print the contents of the current window.  
 
 ```js
-    window.print();
+window.print();
 ```
 ##3. JavaScript Closures Example
     // console.log(sum(2,3));   // Outputs 5 
