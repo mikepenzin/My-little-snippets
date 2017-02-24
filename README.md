@@ -70,8 +70,8 @@ function isInteger(x) {
     return (x^0) === x; 
 } 
 ```
-##6. Function will output the value of factorial
-    // f(0);   // Outputs 0
+##6. Function will output the value of factorial.
+    // f(0);   // Outputs 0
     // f(5);   // Outputs 120
 
 ```js
