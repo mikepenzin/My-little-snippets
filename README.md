@@ -17,10 +17,10 @@
     function getH(h){
         var hours = h;
         if (hours > 12){
-            return ((hours - 12) + " PM");
+            return ((hours == 24) ? (0 + " AM"):((hours - 12) + " PM"));
         } else {
-            return ((12 - hours) + " AM");
-        }
+            return ((hours == 0) ? (0 + " PM"):((12 - hours) + " AM"));
+        } 
     }
 ```
 ##2. Write a JavaScript program to print the contents of the current window.  
@@ -35,6 +35,7 @@
 ```js
 function sum(x){
     if (arguments.length == 2){
+        // in functions arguments received as array. We need to check if their is two or one argument in array. 
        return arguments[0] + arguments[1];
     } else {
         return function (y) {
