@@ -172,7 +172,7 @@ a();
 
 // Just another way of binding
 "use strict";
-var a = function(){
+function a(){
     console.log(this);
 };
 
