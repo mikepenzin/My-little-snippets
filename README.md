@@ -180,4 +180,17 @@ var f = a.bind(2);
 f();
 
 // Output: 2
+
+var mike = {
+   checkThis: function() {
+       var checkOther = function(){
+           console.log(this);
+       }.bind(this);
+       checkOther();
+    }
+}
+
+mike.checkThis();
+
+// Output: Object{} - // name of the Object is checkThis as expected
 ```
