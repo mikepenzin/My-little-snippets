@@ -151,4 +151,21 @@ var x = sum.apply(null, thing);
 
 // ------------
 
+"use strict";
+var a = function(){
+    console.log(this);
+}.bind(2);
+
+a();
+
+// Output: undefined
+
+// Inside bind fucntion, we actually defining "this" keyword paraemter
+var a = function(){
+    console.log(this);
+}.bind(2);
+
+a();
+
+// Output: 2
 ```
