@@ -161,11 +161,23 @@ a();
 // Output: undefined
 
 // Inside bind fucntion, we actually defining "this" keyword paraemter
+"use strict";
 var a = function(){
     console.log(this);
 }.bind(2);
 
 a();
+
+// Output: 2
+
+// Just another way of binding
+"use strict";
+var a = function(){
+    console.log(this);
+};
+
+var f = a.bind(2);
+f();
 
 // Output: 2
 ```
