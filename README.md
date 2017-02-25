@@ -84,4 +84,43 @@ function f(n) {
     return ((n > 1) ? n * f(n-1) : n)
 }
 ```
+##7. Call function examples.
 
+```js
+var person = {hi: "Hello"};
+
+function showFullName(pep) {
+    console.log (this.hi);
+}
+
+showFullName.call(person); 
+// Output: Hello
+
+// ------------
+
+var mike = {
+   checkThis: function() {
+       function checkOther(){
+           console.log(this);
+       }
+        checkOther.call(this)
+    }
+}
+
+mike.checkThis();
+// Output: mike Object
+
+// ------------
+
+function a(b,c,d){
+    console.log(this);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+}
+
+a.call(1,2,3,4); 
+// this = 1
+
+a(1,2,3,4); 
+// this = window object
