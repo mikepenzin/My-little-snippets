@@ -84,8 +84,8 @@ function f(n) {
     return ((n > 1) ? n * f(n-1) : n)
 }
 ```
-##7. Call function examples.
-
+##7. Call / Apply / Bind functions examples.
+     Generally speaking: stabilizing the "this" keyword.
 ```js
 var person = {hi: "Hello"};
 
@@ -122,5 +122,33 @@ function a(b,c,d){
 a.call(1,2,3,4); 
 // this = 1
 
+a.apply(1, [2,3,4]);
+// this = 1
+// apply function need to passing in an array of parameters - this only difference with call function.
+// So, both methods "a.call(1,2,3,4);" and "a.apply(1, [2,3,4]);" are equivalent with same output.
+
 a(1,2,3,4); 
 // this = window object
+
+// ------------
+
+function sum(){
+    var total = 0;
+    for (var i = 0; i <arguments.length; i++){
+        total += arguments[i];
+    }
+    return total;
+}
+
+var x = sum.call(null, 1,2,3);
+// Output: 6
+
+var thing = [1,2,3];
+
+var x = sum.apply(null, thing);
+
+// Output: 6
+
+// ------------
+
+```
