@@ -1,5 +1,7 @@
 # My little JS snippets
 
+See - https://gist.github.com/mikepenzin
+
 ##1. Display Date & Time
     // Today is : Friday. 
     // Current time is : 4 PM : 50 : 22   
