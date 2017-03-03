@@ -196,3 +196,78 @@ mike.checkThis();
 
 // Output: Object{} - // name of the Object is checkThis as expected
 ```
+##8. Prototyping Patterns.
+
+```js
+// 1. Init method
+
+var Person = {
+    init: function(firstName, lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        return this;
+    },
+    full_name: function(firstName, lastName){
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+var mike = Object.create(Person);
+mike.init("Mike", "Penzin");
+
+console.log(mike.full_name()); // Output: Mike Penzin  
+
+// ------------
+
+// 2. Object creation method
+
+var Person = {
+    full_name: function(firstName, lastName){
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+var luc = Object.create(Person, {
+    firstName: {
+        value: "Luc"
+    },
+    lastName: {
+        value: "Besson"
+    }
+});
+
+var mike = Object.create(Person, {
+    firstName: {
+        value: "Mike"
+    },
+    lastName: {
+        value: "Penzin"
+    }
+});
+
+console.log(luc.full_name()); // Output: Luc Besson
+console.log(mike.full_name()); // Output: Mike Penzin
+
+// ------------
+
+// 3. Creation function method
+var Person = {
+    full_name: function(firstName, lastName){
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+function PersonFactory(firstName, lastName){
+    var person = Object.create(Person);
+    person.firstName = firstName;
+    person.lastName = lastName;
+    return person;
+}
+
+var luc = PersonFactory("Luc", "Besson");
+
+var mike = PersonFactory("Mike", "Penzin");
+
+console.log(luc.full_name()); // Output: Luc Besson
+console.log(mike.full_name()); // Output: Mike Penzin
+```
