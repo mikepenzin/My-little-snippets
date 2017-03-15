@@ -270,4 +270,50 @@ var mike = PersonFactory("Mike", "Penzin");
 
 console.log(luc.full_name()); // Output: Luc Besson
 console.log(mike.full_name()); // Output: Mike Penzin
+
+```
+
+##9. Object creation patterns
+
+```js
+// 1. Factory Pattern
+
+var peopleFactory = function(name, age, state){
+    var tmp = [];
+    tmp.name = name;
+    tmp.age = age;
+    tmp.state = state;
+    tmp.printPerson = function(){
+        console.log(this.name + ", " + this.age + ", " + this.state);
+    };
+    return tmp;
+};
+
+var mike = peopleFactory("Mike", 25, "CA");
+var john = peopleFactory("John", 34, "SC");
+
+mike.printPerson(); // Output: Mike, 25, CA
+john.printPerson(); // Output: john, 34, SC  
+
+// ------------
+
+// 2. Constructor Pattern
+
+var peopleFactory = function(name, age, state){
+    this.name = name;
+    this.age = age;
+    this.state = state;
+    this.printPerson = function(){
+        console.log(this.name + ", " + this.age + ", " + this.state);
+    };
+};
+
+var mike = peopleFactory("Mike", 25, "CA");
+var john = peopleFactory("John", 34, "SC");
+
+mike.printPerson(); // Output: Mike, 25, CA
+john.printPerson(); // Output: john, 34, SC  
+
+// ------------
+
 ```
