@@ -11,6 +11,7 @@ See - https://gist.github.com/mikepenzin
 - [7. Call / Apply / Bind functions examples.](#7-call--apply--bind-functions-examples)
 - [8. Object creation patterns (Part 1)](#8-object-creation-patterns-part-1)
 - [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
+- [10. The Singleton Pattern](#10-the-singleton-pattern)
 
 
 ## 1. Display Date & Time
