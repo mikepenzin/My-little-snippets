@@ -2,7 +2,7 @@
 
 See - https://gist.github.com/mikepenzin
 
-##1. Display Date & Time
+## 1. Display Date & Time
     // Today is : Friday. 
     // Current time is : 4 PM : 50 : 22   
 
@@ -25,12 +25,12 @@ function getH(h){
   } 
 }
 ```
-##2. Write a JavaScript program to print the contents of the current window.  
+## 2. Write a JavaScript program to print the contents of the current window.  
 
 ```js
 window.print();
 ```
-##3. JavaScript Closures Example
+## 3. JavaScript Closures Example
     // console.log(sum(2,3));   // Outputs 5 
     // console.log(sum(2)(3));  // Outputs 5 
 
@@ -47,7 +47,7 @@ function sum(x){
     }
 }
 ```
-##4. The following function will return true if str is a palindrome; otherwise, it returns false.
+## 4. The following function will return true if str is a palindrome; otherwise, it returns false.
     // isPalindrome("level");   // Outputs true 
     // isPalindrome("levels");   // Outputs false
     // isPalindrome("A car, a man, a maraca");   // Outputs true 
@@ -64,7 +64,7 @@ function isPalindrome(str) {
     console.log(str == str.split('').reverse().join(''));
 }
 ```
-##5. Function isInteger(x) that determines if x is an integer.
+## 5. Function isInteger(x) that determines if x is an integer.
     // isInteger(3);   // Outputs true 
     // isInteger("5");   // Outputs false
     // isInteger("car");   // Outputs false 
@@ -75,7 +75,7 @@ function isInteger(x) {
     return (x^0) === x; 
 } 
 ```
-##6. Function will output the value of factorial.
+## 6. Function will output the value of factorial.
     // f(0);   // Outputs 0
     // f(5);   // Outputs 120
 
@@ -86,7 +86,7 @@ function f(n) {
     return ((n > 1) ? n * f(n-1) : n)
 }
 ```
-##7. Call / Apply / Bind functions examples.
+## 7. Call / Apply / Bind functions examples.
      Generally speaking: stabilizing the "this" keyword.
 ```js
 var person = {hi: "Hello"};
@@ -196,7 +196,7 @@ mike.checkThis();
 
 // Output: Object{} - // name of the Object is checkThis as expected
 ```
-##8. Prototyping Patterns.
+## 8. Prototyping Patterns.
 
 ```js
 // 1. Init method
@@ -273,7 +273,7 @@ console.log(mike.full_name()); // Output: Mike Penzin
 
 ```
 
-##9. Object creation patterns
+## 9. Object creation patterns
 
 ```js
 // 1. Factory Pattern
