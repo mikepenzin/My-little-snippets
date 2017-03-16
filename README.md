@@ -3,14 +3,14 @@
 See - https://gist.github.com/mikepenzin
 
 - [1. Display Date & Time](#1-display-date--time)
-- [2. Write a JavaScript program to print the contents of the current window.](#)
-- [3. JavaScript Closures Example](#)
-- [4. The following function will return true if str is a palindrome; otherwise, it returns false.](#)
-- [5. Function isInteger(x) that determines if x is an integer.](#)
-- [6. Function will output the value of factorial. (Recursion)](#)
-- [7. Call / Apply / Bind functions examples.](#)
-- [8. Prototyping Patterns.](#)
-- [9. Object creation patterns](#)
+- [2. Write a JavaScript program to print the contents of the current window.](#2-write-a-javascript-program-to-print-the-contents-of-the-current-window)
+- [3. JavaScript Closures Example](#3-javascript-closures-example)
+- [4. The following function will return true if str is a palindrome; otherwise, it returns false.](#4-the-following-function-will-return-true-if-str-is-a-palindrome-otherwise-it-returns-false)
+- [5. Function isInteger(x) that determines if x is an integer.](#5-function-isintegerx-that-determines-if-x-is-an-integer)
+- [6. Function will output the value of factorial. (Recursion)](#6-function-will-output-the-value-of-factorial-recursion)
+- [7. Call / Apply / Bind functions examples.](#7-call--apply--bind-functions-examples)
+- [8. Prototyping Patterns.](#8-prototyping-patterns)
+- [9. Object creation patterns](#9-object-creation-patterns)
 
 
 ## 1. Display Date & Time
