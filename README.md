@@ -307,11 +307,15 @@ var peopleFactory = function(name, age, state){
     };
 };
 
-var mike = peopleFactory("Mike", 25, "CA");
-var john = peopleFactory("John", 34, "SC");
+var mike = new peopleFactory("Mike", 25, "CA");
+var john = new peopleFactory("John", 34, "SC");
 
 mike.printPerson(); // Output: Mike, 25, CA
 john.printPerson(); // Output: john, 34, SC  
+
+// In order to test whether an object has in its prototype chain the prototype property of a constructor.
+
+console.log(mike instanceof peopleFactory); // Output: true
 
 // ------------
 
