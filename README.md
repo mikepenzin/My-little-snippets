@@ -75,7 +75,7 @@ function isInteger(x) {
     return (x^0) === x; 
 } 
 ```
-## 6. Function will output the value of factorial.
+## 6. Function will output the value of factorial. (Recursion)
     // f(0);   // Outputs 0
     // f(5);   // Outputs 120
 
@@ -89,14 +89,14 @@ function f(n) {
 ## 7. Call / Apply / Bind functions examples.
      Generally speaking: stabilizing the "this" keyword.
 ```js
+// 1. Call, Apply
 var person = {hi: "Hello"};
 
 function showFullName(pep) {
     console.log (this.hi);
 }
 
-showFullName.call(person); 
-// Output: Hello
+showFullName.call(person); // Output: Hello
 
 // ------------
 
@@ -109,8 +109,7 @@ var mike = {
     }
 }
 
-mike.checkThis();
-// Output: mike Object
+mike.checkThis(); // Output: mike Object
 
 // ------------
 
@@ -121,16 +120,13 @@ function a(b,c,d){
     console.log(d);
 }
 
-a.call(1,2,3,4); 
-// this = 1
+a.call(1,2,3,4); // this = 1
 
-a.apply(1, [2,3,4]);
-// this = 1
+a.apply(1, [2,3,4]); // this = 1
 // apply function need to passing in an array of parameters - this only difference with call function.
 // So, both methods "a.call(1,2,3,4);" and "a.apply(1, [2,3,4]);" are equivalent with same output.
 
-a(1,2,3,4); 
-// this = window object
+a(1,2,3,4); // this = window object
 
 // ------------
 
@@ -142,25 +138,22 @@ function sum(){
     return total;
 }
 
-var x = sum.call(null, 1,2,3);
-// Output: 6
+var x = sum.call(null, 1,2,3); // Output: 6
 
 var thing = [1,2,3];
 
-var x = sum.apply(null, thing);
-
-// Output: 6
+var x = sum.apply(null, thing); // Output: 6
 
 // ------------
+
+// 2. Bind
 
 "use strict";
 var a = function(){
     console.log(this);
 }.bind(2);
 
-a();
-
-// Output: undefined
+a(); // Output: undefined
 
 // Inside bind fucntion, we actually defining "this" keyword paraemter
 "use strict";
@@ -168,9 +161,7 @@ var a = function(){
     console.log(this);
 }.bind(2);
 
-a();
-
-// Output: 2
+a(); // Output: 2
 
 // Just another way of binding
 "use strict";
@@ -179,9 +170,7 @@ function a(){
 };
 
 var f = a.bind(2);
-f();
-
-// Output: 2
+f(); // Output: 2
 
 var mike = {
    checkThis: function() {
@@ -192,10 +181,9 @@ var mike = {
     }
 }
 
-mike.checkThis();
-
-// Output: Object{} - // name of the Object is checkThis as expected
+mike.checkThis(); // Output: Object{} - // name of the Object is checkThis as expected
 ```
+
 ## 8. Prototyping Patterns.
 
 ```js
