@@ -344,5 +344,31 @@ var defaults = new peopleProto();
 mike.printPerson(); // Output: Mike, 25, CA
 john.printPerson(); // Output: john, 34, SC  
 defaults.printPerson(); // Output: no name, 0, no state
+
+console.log("name" in mike); // Output will always be true, since even if name property value not set for object, prototype of the object have default value.
+
+console.log(mike.hasOwnProperty('name')); // Out will be true only if property value was set inside this Object (and not prototype defalts). 
+
 // ------------
+
+// 4. Dynamic Prototype Pattern
+
+var peopleDynamicProto = function(name, age, state){
+    this.age = age;
+    this.name = name;
+    this.state = state;
+
+    if( typeof this.printPerson !== 'function') {
+        peopleDynamicProto.prototype.printPerson = function(){
+           console.log(this.name + ", " + this.age + ", " + this.state);
+        };
+    }    
+};
+
+var mike = new peopleDynamicProto("Mike", 25, "CA");
+var john = new peopleDynamicProto("John", 34, "SC");
+
+mike.printPerson(); // Output: Mike, 25, CA
+john.printPerson(); // Output: john, 34, SC  
+
 ```
