@@ -9,7 +9,7 @@ See - https://gist.github.com/mikepenzin
 - [5. Function isInteger(x) that determines if x is an integer.](#5-function-isintegerx-that-determines-if-x-is-an-integer)
 - [6. Function will output the value of factorial. (Recursion)](#6-function-will-output-the-value-of-factorial-recursion)
 - [7. Call / Apply / Bind functions examples.](#7-call--apply--bind-functions-examples)
-- [8. Prototyping Patterns.](#8-prototyping-patterns)
+- [8. Object creation patterns (Part 1)](#8-object-creation-patterns-part-1)
 - [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
 
 
