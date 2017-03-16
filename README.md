@@ -447,3 +447,5 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 - [Eloquent JavaScript](http://eloquentjavascript.net/) - This is a book about JavaScript, programming, and the wonders of the digital. You can read it online.
 - [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Learning JavaScript Design Patterns book by Addy Osmani 
 - [How to Learn JavaScript Properly - JavaScript.isSexy](http://javascriptissexy.com/how-to-learn-javascript-properly) - This study guide, which I also refer to as a course outline and a road map, gives you a structured and instructive outline for learning JavaScript properly. 
+- [JSBooks](http://jsbooks.revolunet.com) - The best free JavaScript resources (books)
+- [JavaScript // MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Mozilla Developer Network
