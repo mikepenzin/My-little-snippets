@@ -345,9 +345,14 @@ mike.printPerson(); // Output: Mike, 25, CA
 john.printPerson(); // Output: john, 34, SC  
 defaults.printPerson(); // Output: no name, 0, no state
 
-console.log("name" in mike); // Output will always be true, since even if name property value not set for object, prototype of the object have default value.
+console.log("name" in mike); 
+// Output will always be true, 
+// since even if name property value not set for object, 
+// prototype of the object have default value.
 
-console.log(mike.hasOwnProperty('name')); // Out will be true only if property value was set inside this Object (and not prototype defalts). 
+console.log(mike.hasOwnProperty('name')); 
+// Out will be true only if property value was set 
+// inside this Object (and not prototype defalts). 
 
 // ------------
 
