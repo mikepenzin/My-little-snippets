@@ -316,4 +316,33 @@ john.printPerson(); // Output: john, 34, SC
 
 // ------------
 
+// 3. Prototype Pattern
+
+var peopleProto = function(){
+
+};
+
+peopleProto.prototype.name = "no name";
+peopleProto.prototype.age = 0;
+peopleProto.prototype.state = "no state";
+peopleProto.prototype.printPerson = function(){
+   console.log(this.name + ", " + this.age + ", " + this.state);
+};
+
+var mike = new peopleProto();
+mike.name = "Mike";
+mike.age = 25;
+mike.state = "CA";
+
+var john = new peopleProto();
+john.name = "John";
+john.age = 34;
+john.state = "SC";
+
+var defaults = new peopleProto();
+
+mike.printPerson(); // Output: Mike, 25, CA
+john.printPerson(); // Output: john, 34, SC  
+defaults.printPerson(); // Output: no name, 0, no state
+// ------------
 ```
