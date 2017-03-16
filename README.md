@@ -10,7 +10,7 @@ See - https://gist.github.com/mikepenzin
 - [6. Function will output the value of factorial. (Recursion)](#6-function-will-output-the-value-of-factorial-recursion)
 - [7. Call / Apply / Bind functions examples.](#7-call--apply--bind-functions-examples)
 - [8. Prototyping Patterns.](#8-prototyping-patterns)
-- [9. Object creation patterns](#9-object-creation-patterns)
+- [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
 
 
 ## 1. Display Date & Time
@@ -195,7 +195,7 @@ var mike = {
 mike.checkThis(); // Output: Object{} - // name of the Object is checkThis as expected
 ```
 
-## 8. Prototyping Patterns.
+## 8. Object creation patterns (Part 1)
 
 ```js
 // 1. Init method
@@ -272,7 +272,7 @@ console.log(mike.full_name()); // Output: Mike Penzin
 
 ```
 
-## 9. Object creation patterns
+## 9. Object creation patterns (Part 2)
 
 ```js
 // 1. Factory Pattern
