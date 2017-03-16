@@ -388,6 +388,14 @@ Singletons differ from static classes (or objects) as we can delay their initial
 In JavaScript, Singletons serve as a shared resource namespace which isolate implementation code from the global namespace so as to provide a single point of access for functions.
 
 ```js
+// The simplest singleton implementation in JavaScript is:
+
+var Singleton = {};
+
+// ------------
+
+// Another Implementation
+
 var MySingleton = (function () {
 
   var INSTANCE;
@@ -419,7 +427,14 @@ var MySingleton = (function () {
 
 }());
 
+var ex1 = MySingleton.getInstance("hi");
+var ex2 = MySingleton.getInstance("bye");
+
+console.log(ex1 === ex2); // Output: true
+console.log(ex1); // Output: MySingleton {foo: "hi"}
+console.log(ex2); // Output: MySingleton {foo: "hi"}
+
 // In this example we use the module pattern once again, 
-// in order to enclose the singleton implementation into a 
-// lexical closure and provide a public interface for getting its instance.
+// in order to enclose the singleton implementation into 
+// a lexical closure and provide a public interface for getting its instance.
 ```
