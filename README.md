@@ -12,6 +12,7 @@ See - https://gist.github.com/mikepenzin
 - [8. Object creation patterns (Part 1)](#8-object-creation-patterns-part-1)
 - [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
 - [10. The Singleton Pattern](#10-the-singleton-pattern)
+- [Useful Links](#useful-links)
 
 
 ## 1. Display Date & Time
@@ -440,6 +441,8 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 // a lexical closure and provide a public interface for getting its instance.
 ```
 
-## Usefull Links
+## Useful Links
 
-[JS the Right Way](https://jstherightway.org/) - This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
+- [JS the Right Way](http://jstherightway.org/) - This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
+- [Eloquent JavaScript](http://eloquentjavascript.net/) - This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or get your own paperback copy of the book.
+- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Learning JavaScript Design Patterns book by Addy Osmani 
