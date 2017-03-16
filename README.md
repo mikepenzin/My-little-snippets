@@ -439,3 +439,7 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 // in order to enclose the singleton implementation into 
 // a lexical closure and provide a public interface for getting its instance.
 ```
+
+## Usefull Links
+
+[JS the Right Way](https://jstherightway.org/) - This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
