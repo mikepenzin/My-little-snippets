@@ -2,6 +2,17 @@
 
 See - https://gist.github.com/mikepenzin
 
+- [My little JS snippets](#)
+	- [1. Display Date & Time](#)
+	- [2. Write a JavaScript program to print the contents of the current window.](#)
+	- [3. JavaScript Closures Example](#)
+	- [4. The following function will return true if str is a palindrome; otherwise, it returns false.](#)
+	- [5. Function isInteger(x) that determines if x is an integer.](#)
+	- [6. Function will output the value of factorial. (Recursion)](#)
+	- [7. Call / Apply / Bind functions examples.](#)
+	- [8. Prototyping Patterns.](#)
+	- [9. Object creation patterns](#)
+
 ## 1. Display Date & Time
     // Today is : Friday. 
     // Current time is : 4 PM : 50 : 22   
