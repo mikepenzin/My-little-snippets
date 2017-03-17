@@ -13,6 +13,7 @@ See - https://gist.github.com/mikepenzin
 - [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
 - [10. The Singleton Pattern](#10-the-singleton-pattern)
 - [Useful Links](#useful-links)
+- [Books](#books)
 
 
 ## 1. Display Date & Time
@@ -444,9 +445,15 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 ## Useful Links
 
 - [JS the Right Way](http://jstherightway.org/) - This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
+- [How to Learn JavaScript Properly - JavaScript.isSexy](http://javascriptissexy.com/how-to-learn-javascript-properly) - This study guide, which I also refer to as a course outline and a road map, gives you a structured and instructive outline for learning JavaScript properly. 
+- [JavaScript // MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Mozilla Developer Network
+
+## Books
+
 - [Eloquent JavaScript](http://eloquentjavascript.net/) - This is a book about JavaScript, programming, and the wonders of the digital. You can read it online.
 - [Front-End Developer Handbook 2017](https://www.gitbook.com/book/frontendmasters/front-end-handbook-2017/details) - This is a guide that anyone could use to learn about the practice of front-end development. It broadly outlines and discusses the practice of front-end engineering: how to learn it and what tools are used when practicing it in 2017. The content of the handbook favors web technologies (HTML, CSS, DOM, and JavaScript) and those solutions that are directly built on top of these open technologies. The materials referenced and discussed in the book are either best in class or the current offering to a problem.
+- [Craft Academy Bootcamp](https://www.gitbook.com/book/craftacademy/coding-as-a-craft/details) - Craft Academy is a 12-week intensive, practice-oriented course for aspiring junior developers. The course is delivered as a coding bootcamp by Craft Academy in Gothenburg, Sweden. It gives you the basics you need to create, develop and launch web-based applications.
+- [Coding as a Craft Bootcamp prep](https://www.gitbook.com/book/craftacademy/caa_precourse/details) - A prep course for junior web developers.
+- [Frontend precommit rules for Javascript, SASS](https://www.gitbook.com/book/schibsted-engineers/frontend-pre-commit-rules/details) - The main goal of this set of rules is to establish healthy boundaries where cleaner code will be easier to share, more scalable, more readable and easier to maintain for everyone.
 - [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Learning JavaScript Design Patterns book by Addy Osmani 
-- [How to Learn JavaScript Properly - JavaScript.isSexy](http://javascriptissexy.com/how-to-learn-javascript-properly) - This study guide, which I also refer to as a course outline and a road map, gives you a structured and instructive outline for learning JavaScript properly. 
 - [JSBooks](http://jsbooks.revolunet.com) - The best free JavaScript resources (books)
-- [JavaScript // MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Mozilla Developer Network
