@@ -455,5 +455,23 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 - [Craft Academy Bootcamp](https://www.gitbook.com/book/craftacademy/coding-as-a-craft/details) - Craft Academy is a 12-week intensive, practice-oriented course for aspiring junior developers. The course is delivered as a coding bootcamp by Craft Academy in Gothenburg, Sweden. It gives you the basics you need to create, develop and launch web-based applications.
 - [Coding as a Craft Bootcamp prep](https://www.gitbook.com/book/craftacademy/caa_precourse/details) - A prep course for junior web developers.
 - [Frontend precommit rules for Javascript, SASS](https://www.gitbook.com/book/schibsted-engineers/frontend-pre-commit-rules/details) - The main goal of this set of rules is to establish healthy boundaries where cleaner code will be easier to share, more scalable, more readable and easier to maintain for everyone.
-- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Learning JavaScript Design Patterns book by Addy Osmani 
-- [JSBooks](http://jsbooks.revolunet.com) - The best free JavaScript resources (books)
+- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Learning JavaScript Design Patterns book by Addy Osmani.
+- [JSBooks](http://jsbooks.revolunet.com) - The best free JavaScript resources (books).
+- [A book on EcmaScript](https://www.gitbook.com/book/iamanubhavsaini/ecmascript/details) - This is the book you want to read up on JavaScript.
+- [Javascript Promises](https://www.gitbook.com/book/samypesse/js-promises/details) - In this book, you'll learn how to use promises in Javascript, and why you should use it.
+- [Writing Embedded JavaScript and CSS](https://www.gitbook.com/book/eager/embed/details) - This is a book about how to craft code designed to be embedded into a website. The thing you need to embed might be an analytics tracking code, a UI element like a calendar or form, or a powerful library like Offline.
+- [You Don't Know JS (book series)](https://www.gitbook.com/book/asfara/you-dont-know-js/details) - This is a series of books diving deep into the core mechanisms of the JavaScript language. The first edition of the series is now complete.
+- [Front-End-Developer - Level 1](https://www.gitbook.com/book/opteamize/front-end-developer/details) - This is the 1st level of the Job Guarantee Front end Developer course from Opteamize, an IBM Coding School. Level 1 includes HTML CSS/basics, Javascript basics & JQuery. Check Opteamize.in for registrations & more info.
+- [Front-End-Developer - Level 2](https://www.gitbook.com/book/opteamize/front-end-developer-level-2-/details) - This is the second level of the Job Guarantee Front end Developer course from Opteamize, an IBM Coding School. Level 2 includes CSS, Javascript, Sass, Angularjs, & Placement test. Check opteamize.in for more.
+- [Build our own React.js](https://www.gitbook.com/book/swennemans/building-your-own-react-js/details) - In this book/guide we build our own simplified version of React.js. We keep it simple but extensive enough to learn a lot of cool things about React.js and React.js-like libraries.
+- [Advanced Functional JavaScript](https://www.gitbook.com/book/rajasharan/functional-javascript/details) - Collection of code snippets to showcase functional aspects of JavaScript.
+- [Frontendium Front-end Web Development](https://www.gitbook.com/book/hackpacific/frontendium-front-end-sprint/details) - In 10 weeks, you will learn HTML, CSS, Bootstrap, JavaScript, jQuery, Git and build multiple front-end projects.
+- [TypeScript Handbook](https://www.gitbook.com/book/michelc/typescript-handbook/details) - Microsoft TypeScript-Handbook as PDF.
+- [Data Structure in JavaScript with ES6/ES2016](https://www.gitbook.com/book/pmary/data-structure-in-javascript/details) - Learn what are the data structures, when to use them, how to implement them and discover the best practices associated. This book also include an overview of the benefits of using the last ES2016 features.
+
+
+
+
+
+
+
