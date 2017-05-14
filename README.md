@@ -12,6 +12,7 @@ See - https://gist.github.com/mikepenzin
 - [8. Object creation patterns (Part 1)](#8-object-creation-patterns-part-1)
 - [9. Object creation patterns (Part 2)](#9-object-creation-patterns-part-2)
 - [10. The Singleton Pattern](#10-the-singleton-pattern)
+- [11. Promises Patterns](#11-promises-patterns)
 - [Useful Links](#useful-links)
 - [Books](#books)
 
@@ -440,6 +441,33 @@ console.log(ex2); // Output: MySingleton {foo: "hi"}
 // In this example we use the module pattern once again, 
 // in order to enclose the singleton implementation into 
 // a lexical closure and provide a public interface for getting its instance.
+```
+## 11. Promises Patterns
+This is a basic pattern for promises.
+
+We can use a promise library for JavaScript http://documentup.com/kriskowal/q/
+
+```js
+// Standard callback pattern:
+
+coolAjaxRequest('GET', 'http://myservice.com/dostuff', function(error, result) {
+  if(error) {
+    // do things with the error here
+  } else {
+    // do things with the result here
+  }
+})
+
+// ------------
+
+// Promise pattern:
+fancyAjaxRequest('GET', 'http://myservice.com/dostuff')
+  .then(function(result) {
+    // do things with the result here
+  })
+  .fail(function(error) {
+     // do things with the error here
+  })
 ```
 
 ## Useful Links
